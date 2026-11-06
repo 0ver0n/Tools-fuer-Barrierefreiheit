@@ -1,0 +1,15 @@
+ChatGPT JAWS Seitenansicht 2.4 – Installation und Bedienung
+
+1. In Chrome chrome://extensions öffnen.
+2. Die alte Version 2.3 entfernen (nicht beide parallel benutzen).
+3. Dieses Archiv entpacken und den entpackten Ordner unter „Entpackte Erweiterung laden“ auswählen.
+4. ChatGPT mit Strg+R neu laden. PageLive zum Vergleich zunächst deaktivieren.
+
+Mit JAWS navigieren:
+Taste 1: ChatGPT-Antwort (H1), auch während die Antwort entsteht.
+Taste 2: Benutzer-Nachricht (H2).
+Taste E: Eingabefeld (unverändert).
+
+Die Originalseite und der Antworttext bleiben erhalten. Die weiteren Überschriften in Antworttexten werden für die Überschriftennavigation als normaler Absatz behandelt; ihr Text bleibt zugänglich. Der Menübereich erlaubt Seitenleiste ein/aus, Vereinfachung ein/aus und Diagnose kopieren.
+
+Vorgehen bei Problem: „Diagnose kopieren“ verwenden und den Bericht weitergeben. Eine Deinstallation entfernt die Seitenanpassung. Keine Änderung an Windows/JAWS, kein Netzwerktransfer und keine Administratorrechte.
