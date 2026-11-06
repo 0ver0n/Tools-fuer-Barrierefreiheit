@@ -1,0 +1,34 @@
+#jh24-controls {
+  position: relative !important;
+  z-index: 99 !important;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: .5rem !important;
+  align-items: center !important;
+  padding: .5rem .75rem !important;
+  font: 16px/1.5 system-ui,sans-serif !important;
+  color: CanvasText !important;
+  background: Canvas !important;
+  border-bottom: 1px solid ButtonBorder !important;
+}
+#jh24-controls button {
+  font: inherit !important;
+  padding: .35rem .65rem !important;
+  color: ButtonText !important;
+  background: ButtonFace !important;
+  border: 1px solid ButtonBorder !important;
+  border-radius: .25rem !important;
+  cursor: pointer !important;
+}
+#jh24-controls button:focus-visible { outline: 3px solid Highlight !important;outline-offset: 2px !important; }
+#jh24-controls .jh24-status { font-size: .9rem !important; }
+#jh24-controls .jh24-report { width:100%;height:9rem !important; }
+.jh24-heading {
+  display:block !important;
+  font:700 1rem/1.4 system-ui,sans-serif !important;
+  padding:.15rem 0 !important;
+  margin:.5rem 0 .25rem !important;
+  color:inherit !important;
+}
+html.jh24-active.jh24-hide-sidebar [data-jh24-sidebar="true"] { display:none !important; }
+html.jh24-active .jh24-decorative-heading { display:none !important; }
