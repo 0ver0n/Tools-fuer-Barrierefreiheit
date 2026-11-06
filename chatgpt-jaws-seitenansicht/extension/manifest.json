@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "ChatGPT JAWS Seitenansicht",
+  "version": "2.4.0",
+  "description": "JAWS-freundliche ChatGPT-Seitenansicht: H1 für ChatGPT, H2 für eigene Nachrichten, auch während Antworten entstehen.",
+  "permissions": [
+    "storage",
+    "activeTab"
+  ],
+  "action": {
+    "default_title": "ChatGPT JAWS Seitenansicht",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://chatgpt.com/*",
+        "https://chat.openai.com/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "css": [
+        "style.css"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}
